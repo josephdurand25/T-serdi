@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Symfony\Component\Console\Output\ConsoleOutput;
 
 class CreateModels extends Command
 {
@@ -26,15 +27,20 @@ class CreateModels extends Command
     public function handle()
     {
         //
+        $out = new ConsoleOutput;
         $directories = glob(resource_path('views/admin/pages/*'), GLOB_ONLYDIR);
 
         foreach ($directories as $directory) {
-            $modelName = ucfirst(basename($directory));
+            $modelName = rtrim(ucfirst(basename($directory)), "s");
             $modelPath = app_path('Models/Admin/' . $modelName . '.php');
 
             if (!file_exists($modelPath)) {
                 shell_exec('php artisan make:model Admin/'. $modelName.' -m');
+                $out->writeln("Model $modelName crée avec succès.");
+            }else{
+                $out->writeln("Model $modelName déjà present.");
             }
         }
+        $out->writeln("Génération des modelès terminé !");
     }
 }
