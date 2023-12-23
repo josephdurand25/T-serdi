@@ -1,0 +1,11 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+/* Defaults to weight 400 */
+@import "@fontsource/cormorant-garamond"; 
+ /* Specify weight */
+@import "@fontsource/cormorant-garamond/400.css"; 
+ /* Specify weight and style */
+@import "@fontsource/cormorant-garamond/400-italic.css"; 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

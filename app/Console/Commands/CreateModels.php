@@ -1,0 +1,40 @@
+<?php
+
+namespace App\Console\Commands;
+
+use Illuminate\Console\Command;
+
+class CreateModels extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'app:create-models';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Create models for all directories in views/admin/pages';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle()
+    {
+        //
+        $directories = glob(resource_path('views/admin/pages/*'), GLOB_ONLYDIR);
+
+        foreach ($directories as $directory) {
+            $modelName = ucfirst(basename($directory));
+            $modelPath = app_path('Models/Admin/' . $modelName . '.php');
+
+            if (!file_exists($modelPath)) {
+                shell_exec('php artisan make:model Admin/'. $modelName.' -m');
+            }
+        }
+    }
+}
