@@ -1,9 +1,9 @@
-<div class="hidden sm:block md:block border p-2 bg-indigo-700">
+<div class="hidden sm:block md:block border p-2 bg-green-700">
     <div class="flex flex-row justify-between  px-20">
-        <div class="px-3 w-1/3 hidden md:flex justify-around items-center">
+        <div class="px-3 w-1/3 hidden md:flex items-center">
             <i class="fas fa-phone text-yellow-300 mx-2"></i>
             <a href="#" class="text-sm text-slate-200">  6 91 79 93 25</a>
-            <div class="border border-yellow-300 h-full "></div>
+            <div class="border border-yellow-300 h-full mx-1"></div>
             <a href="#" class=" text-sm text-slate-200">  6 20 58 63 80</a>
         </div>
         <div class=" px-3 hidden md:flex justify-center items-center w-1/3">

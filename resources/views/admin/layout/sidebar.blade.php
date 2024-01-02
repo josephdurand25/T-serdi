@@ -6,7 +6,7 @@
   <!-- SIDEBAR HEADER -->
   <div class="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
     <a href="index.html">
-      <img src="./images/logo/logo.svg" alt="Logo" />
+      <img src="{{ asset($setting->logo) }}" alt="Logo" />
     </a>
 
     <button
@@ -36,10 +36,8 @@
     <nav
       class="mt-5 py-4 px-4 lg:mt-9 lg:px-6"
       x-data="{selected: 'Dashboard'}"
-      x-init="
-        selected = JSON.parse(localStorage.getItem('selected'));
-        $watch('selected', value => localStorage.setItem('selected', JSON.stringify(value)))"
-    >
+      x-init="selected = JSON.parse(localStorage.getItem('selected'));
+        $watch('selected', value => localStorage.setItem('selected', JSON.stringify(value)))" >
       <!-- Menu Group -->
       <div>
         <h3 class="mb-4 ml-4 text-sm font-medium text-bodydark2">MENU</h3>

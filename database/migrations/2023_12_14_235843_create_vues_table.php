@@ -13,12 +13,15 @@ return new class extends Migration
     {
         Schema::create('vues', function (Blueprint $table) {
             $table->id();
+            $table->integer('vue_id_gear');
             $table->string('name_view', 40);
             $table->string('ico_view', 150);
             $table->string('view_page', 30);
             $table->string('view_folder', 30);
             $table->boolean('published')->default(true);
             $table->timestamps();
+            $table->foreign('vue_id_gear')->references('id_gear')->on('settings')->onDelete('cascade')->onUpdate('cascade');
+
         });
     }
 

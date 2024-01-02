@@ -13,6 +13,6 @@
     <div>
       {{ $slot }}
     </div>
-    @include('web.layouts.footer')
+    {{-- @include('web.layouts.footer') --}}
 </body>
 </html>
