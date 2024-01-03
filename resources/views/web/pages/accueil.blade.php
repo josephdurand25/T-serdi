@@ -138,36 +138,64 @@
           </section>
 {{-- end --}}
     {{-- a propos --}}
-    {{-- <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0">
-        <div class="flex flex-col justify-center items-center mt-1">
-            <header class="text-center mx-auto mb-5 lg:px-20">
-                <h2 class="text-4xl leading-normal mb-2 font-bold text-black">A propos</h2>
-            </header>
-            <div class="py-16 bg-white w-[90%]">  
-                <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                    <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div class="md:5/12 lg:w-5/12">
-                        <img src="{{ asset($about->img_about) }}" alt="image" loading="lazy" width="" height="">
-                    </div>
-                    <div class="md:7/12 lg:w-6/12">
-                        <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Ce que vous devez savoir</h2>
-                        <p class="mt-6 text-gray-600">{{ $about->text_about }} </p>
-                        <div
-                            class=" mt-4 lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-gray-100   lg:border-0 px-6 lg:px-0">
-                            <a href="#"
-                                class="flex justify-center items-center w-full sm:w-max px-6 h-12 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
-                            after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-green-800 hover:after:opacity-100 hover:after:scale-[2.5] bg-blue-600 border-transparent hover:border-[#172554]">
-                                <span class="relative z-10 text-white flex justify-center items-center">
-                                    En savoir plus <i class="fas fa-plus mx-3"></i>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
+  
+    <section class="relative pt-12 bg-blueGray-50">
+      <div class="items-center flex flex-wrap">
+        <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+          <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
         </div>
-    </div> --}}
+        <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <header class="text-center mx-auto mb-5 lg:px-20">
+            <h2 class="text-5xl leading-normal mb-2 font-bold text-black">Qui somme nous ?</h2>
+        </header>
+          <div class="md:pr-12">
+            <div class="text-green-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-green-300 mt-8">
+              <i class="fas fa-rocket text-xl"></i>
+            </div>
+            <h3 class="text-3xl font-semibold">Une entreprise en pleine croissance</h3>
+            <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
+              Système qui permet l'identification des opérateurs de cette activité(opérateurs, conducteur, moto, ...)
+               et la sécurité des activités de transport par moto-taxi des usagers. 
+               Sort l'activité de l'informel vers le formel.
+            </p>
+            <ul class="list-none mt-6">
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i class="fas fa-fingerprint"></i></span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">
+                      Carefully crafted components
+                    </h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i class="fab fa-html5"></i></span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">Amazing page examples</h4>
+                  </div>
+                </div>
+              </li>
+              <li class="py-2">
+                <div class="flex items-center">
+                  <div>
+                    <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-green-600 bg-green-200 mr-3"><i class="far fa-paper-plane"></i></span>
+                  </div>
+                  <div>
+                    <h4 class="text-blueGray-500">Dynamic components</h4>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </section>
     {{-- fin apropos --}}
 
     {{-- Section service --}}

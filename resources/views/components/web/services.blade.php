@@ -6,12 +6,12 @@
                 
                 
                 <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[750px]">
-                    <span class="font-semibold text-lg text-primary mb-2 block">
-                        Our Services
+                    <span class="font-semibold text-3xl mb-2 text-black/90 py-3 border-b border-green-600 border-3 ">
+                        Nos <span class="text-green-800 capitalize">services</span>
                     </span>
-                    <div class=" text-center  border-black space-y-12">
+                    <div class=" text-center  border-black space-y-12 mt-4">
                         <div class="text-center flex text-5xl font-bold   text-black sm:text-4xl lg:text-6xl">
-                          Services offered &nbsp;
+                          
                           <div class="relative inline-grid grid-cols-1 grid-rows-1 gap-12 overflow-hidden">
                             @forelse ($services as $service)
                                 <span class="animate-word-delay-{{ $loop->iteration }} text-4xl col-span-full row-span-full  text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-700">{{ $service->intitule }}</span>

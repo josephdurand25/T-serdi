@@ -6,19 +6,19 @@
                 
                 <div class="text-center mx-auto mb-12 lg:mb-20 max-w-[510px]">
                     <h2 class="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-                        Discover our <span class="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">products
+                        Découvrez nos <span class="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">produits
                         </span> .
                     </h2>
-                    <p class="mb-20 text-lg text-gray-900">Comes directly from the desk of our engineers, creators of sofware solutions.
+                    <p class="mb-20 text-lg text-gray-900">Viennent directement du bureau de nos ingénieurs et créateurs de solutions logicielles.
                     </p>
                 </div>
             </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 px-10">
             @forelse ($produits as $produit)     
-            <div class="overflow-hidden border group relative rounded-lg p-[1px] flex justify-center items-center">
+            <div class="overflow-hidden border group relative  rounded-lg p-[1px] flex justify-center items-center">
                 <div class="rounded-lg hidden group-hover:block animate-gradient w-[250%] h-[500%] absolute -top-[60%] -left-[50%] bg-gradient-to-r from-zinc-900 via-gray-200/40 to-zinc-700 shadow-xl"></div>
-                    <a class="block w-full relative z-10 rounded-xl bg-white p-6 sm:p-8" href="">
+                    <a class="block w-full h-[350px] relative z-10 rounded-xl bg-white p-6 sm:p-8" href="">
                         <div class="w-[70px] h-[70px] flex items-center justify-center bg-primary rounded-2xl mb-8">
                             <svg class="w-full h-full" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <image href="{{ asset($produit->img_produit) }}" x="0" y="0" width="100%" height="100%"/>

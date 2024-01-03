@@ -723,4 +723,35 @@ site web
             </div>
         </div>
 </section>
+
+<div id="services" class="section relative pt-8 pb-8 md:pt-8 md:pb-0">
+    <div class="flex flex-col justify-center items-center mt-1">
+        <header class="text-center mx-auto mb-5 lg:px-20">
+            <h2 class="text-4xl leading-normal mb-2 font-bold text-black">A propos</h2>
+        </header>
+        <div class="py-16 bg-white w-[90%]">  
+            <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+                <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                <div class="md:5/12 lg:w-5/12">
+                    <img src="{{ asset($about->img_about) }}" alt="image" loading="lazy" width="" height="">
+                </div>
+                <div class="md:7/12 lg:w-6/12">
+                    <h2 class="text-2xl text-gray-900 font-bold md:text-4xl">Ce que vous devez savoir</h2>
+                    <p class="mt-6 text-gray-600">{{ $about->text_about }} </p>
+                    <div
+                        class=" mt-4 lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-gray-100   lg:border-0 px-6 lg:px-0">
+                        <a href="#"
+                            class="flex justify-center items-center w-full sm:w-max px-6 h-12 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
+                        after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-green-800 hover:after:opacity-100 hover:after:scale-[2.5] bg-blue-600 border-transparent hover:border-[#172554]">
+                            <span class="relative z-10 text-white flex justify-center items-center">
+                                En savoir plus <i class="fas fa-plus mx-3"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </x-Admin.app-layout>

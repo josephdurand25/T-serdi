@@ -7,7 +7,7 @@
     <title>SERDI</title>
     @vite(['resources/css/app.css','resources/css/tailgrids-fallback.css','resources/js/app.js','resources/js/flowbite.js'])
 </head>
-<body class="bg-gray-200">
+<body class="bg-green-50">
     @include('web.layouts.infos')
     @include('web.layouts.navbar')
     <div>

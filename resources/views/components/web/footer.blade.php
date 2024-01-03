@@ -101,21 +101,24 @@
             </div>
             <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">About</h2>
+                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">A propos de nous</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Company</a>
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Notre sturcture</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Careers</a>
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Notre équipe</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Blog</a>
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Nos produits</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Nos metiers</a>
                         </li>
                     </nav>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Support</h2>
+                    {{-- <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Support</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
                             <a class="text-gray-500 cursor-pointer hover:text-gray-900">Contact Support</a>
@@ -126,10 +129,10 @@
                         <li class="mt-3">
                             <a class="text-gray-500 cursor-pointer hover:text-gray-900">Release Updates</a>
                         </li>
-                    </nav>
+                    </nav> --}}
                 </div>
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Platform
+                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Platform
                     </h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
@@ -144,16 +147,16 @@
                     </nav>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 class="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">Contact</h2>
+                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Contact</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Send a Message</a>
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Ecrivez nous</a>
                         </li>
                         <li class="mt-3">
                             <a class="text-gray-500 cursor-pointer hover:text-gray-900">Request a Quote</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">+123-456-7890</a>
+                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">+237 676 86 29 19</a>
                         </li>
                     </nav>
                 </div>
@@ -161,7 +164,7 @@
         </div>
         <div class="bg-gray-300">
             <div class="container flex justify-between px-5 py-4 mx-auto">
-                <p class="text-sm text-gray-700 capitalize xl:text-center">© 2024 SERDI All rights reserved </p>
+                <p class="text-sm text-gray-700 capitalize xl:text-center">© Serdi Cameroun. Tous droits reservés </p>
                 <p class="text-sm text-gray-700 font-black capitalize xl:text-center">Horaires d'ouverture: Lundi-Vendredi, 08h30 - 17h30</p>
             </div>
         </div>
