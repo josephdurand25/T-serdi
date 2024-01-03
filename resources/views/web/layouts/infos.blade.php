@@ -6,8 +6,8 @@
             <div class="border border-yellow-300 h-full mx-1"></div>
             <a href="#" class=" text-sm text-slate-200">  6 20 58 63 80</a>
         </div>
-        <div class=" px-3 hidden md:flex justify-center items-center w-1/3">
-            <i class="fa-solid fa-location-dot text-yellow-300 mr-2"></i> <span class="text-slate-200">Borne 10, face total energie</span>
+        <div class=" px-3 hidden flex-1 md:flex justify-center items-center w-1/3">
+            <i class="fa-solid fa-location-dot text-yellow-300 mr-2"></i> <span class="text-slate-200">Route de l'aéroport International Yaoundé Nsimalen PK 10 Odza</span>
         </div>
         <div class="px-3  text-yellow-300  flex justify-center  items-center">
             <a href="#" class="mx-4">
@@ -17,10 +17,5 @@
                 <i class="fa-solid fa-envelope"></i>
             </a>
         </div>
-        {{-- <div>
-            <a href="#" class="fas fa-position capitalize">
-                Total Borne 10
-            </a>
-        </div> --}}
     </div>
 </div>

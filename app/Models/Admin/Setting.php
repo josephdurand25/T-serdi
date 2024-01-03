@@ -16,7 +16,10 @@ class Setting extends Model
         return $this->hasMany(About::class,'id_gear');
     }
     public function services(){
-        return $this->hasMany(About::class,'id_gear');
+        return $this->hasMany(Service::class,'id_gear');
+    }
+    public function produits(){
+        return $this->hasMany(Produit::class,'id_gear');
     }
     public function vues(){
         return $this->hasMany(Vue::class,'id_gear');

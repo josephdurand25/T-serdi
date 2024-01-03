@@ -1,11 +1,12 @@
-<nav class="bg-gray-200 shadow shadow-gray-300 w-100 px-8 md:px-auto static">
+<nav class="sticky bg-slate-50 shadow shadow-gray-300 w-100 px-8 md:px-auto static">
 	<div class="relative md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
 		<!-- Logo -->
 		{{-- {{ dd($setting->logo) }} --}}
-		<div class="text-green-500 md:order-1 border flex h-full justify-around items-center  ">
+		<div class="text-green-500 md:order-1  flex h-full justify-around items-center  ">
 			<!-- Heroicon - Chip Outline -->
 			<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 " fill="none" viewBox="0 0 15 24" stroke="currentColor">
-                <img src="{{ asset($setting->logo) }}" x="0" y="0" class="w-full  h-full rounded-full" alt="" />
+                {{-- <img src="{{ asset($setting->logo) }}" x="0" y="0" class="w-full  h-full rounded-full" alt="" /> --}}
+                <img src="{{ asset('storage/utilities/logo1.png') }}" x="0" y="0" class="w-full  h-full rounded-full" alt="" />
 			</svg>
 			<h3 class=" md:block mx-4 capitalize text-xl">{{ $setting->name }}</h3>
 		</div>

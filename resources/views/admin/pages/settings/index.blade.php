@@ -1,4 +1,5 @@
 <x-Admin.app-layout>
+  <x-message></x-message> 
     <form action="{{ route('admin.settings.add') }}" class="" method="POST" enctype="multipart/form-data">
       @csrf
         <div class="grid grid-cols-2 p-6.5 gap-4">

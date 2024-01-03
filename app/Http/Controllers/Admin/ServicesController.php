@@ -44,8 +44,8 @@ class ServicesController extends Controller
         $image=$validateData['img_service'];
         // format : titre-prenom.extention
         $nameimage = $service->intitule.'.'.$image->getClientOriginalExtension();
-        $image->move('storage/utiilities/service', $nameimage);
-        $service->img_service = "storage/utiilities/service/{$nameimage}";
+        $image->move('storage/utilities/service', $nameimage);
+        $service->img_service = "storage/utilities/service/{$nameimage}";
        $result= $service->save();
        if($result){
         return redirect()->back()->with('success', "Service '$service->intitule' crée avec succès.") ;

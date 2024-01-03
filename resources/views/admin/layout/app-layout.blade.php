@@ -19,13 +19,11 @@
                     @include('admin.layout.header')
 
                     <main>
-                        <div class="mx-auto container p-4 md:p-6 2xl:p-0">
-                            <div class=" ">
-                                {{ $slot }}
-                            </div>
+                        <div class="mx-auto container bg-white/95 w-full h-screen p-4 md:p-6 2xl:p-0">
+                            {{ $slot }}
                         </div>
                     </main>
-
+                    <footer class="sticky bottom-0 flex border-top border-slate-100 w-full p-3 justify-center items-center"> Copyright 2024 SERDI All right reserved.</footer>
                 </div>
             </div>
     </body>

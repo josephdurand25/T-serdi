@@ -60,12 +60,14 @@ class VuesController extends Controller
     {
         $validateData = $request->validated();
         $vue = new Vue;
-        $vue->name_view = $validateData['name_view'];
-        $vue->ico_view = $validateData['icon_view'];
-        $vue->view_page = $validateData['view_page'];
-        $vue->view_folder = $validateData['view_folder'];
+       
+        $vue->name_view =strtolower($validateData['name_view']);
+        $vue->ico_view = isset($validateData['icon_view']) ? $validateData['icon_view'] : 'fa-question';
+        // $vue->ico_view = $validateData['icon_view'];
+        $vue->view_page = strtolower($validateData['view_page']);
+        $vue->view_folder = strtolower($validateData['view_folder']);
 
-        $nomDuFichier = $vue->view_page . '.blade.php';
+        $nomDuFichier = $vue->view_page .'.blade.php';
         $cheminDuDossier = resource_path('views/admin/pages/' . $validateData['view_folder']);
 
         // Vérifiez si le répertoire existe et est accessible en écriture
@@ -76,8 +78,9 @@ class VuesController extends Controller
             $cheminDuFichier = $cheminDuDossier . '/' . $nomDuFichier;
 
         // Créez le fichier
+            $base = "<x-Admin.app-layout> $vue->name_view</x-Admin.app-layout>";
             $fichier = fopen($cheminDuFichier, 'w');
-
+            fwrite($fichier, $base);
         if ($fichier) {
             fclose($fichier);
             $result = $vue->save();

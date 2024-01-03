@@ -26,7 +26,7 @@ class FormViewRequest extends FormRequest
             'name_view' => ['required','max:20',Rule::unique('vues')->ignore($this->route()->parameter('vues'))],
             'view_page' => ['required','max:50'],
             'view_folder' => ['required','max:30',Rule::unique('vues')->ignore($this->route()->parameter('vues'))],
-            'icon_view' => ['required','max:150'],
+            // 'icon_view' => ['required','max:150'],
            
         ];
     }
@@ -41,8 +41,8 @@ class FormViewRequest extends FormRequest
             'view_folder.required' => 'Veuillez saisir le dossier conteneur de la vue.',
             'view_folder.max' => 'Dossier conteneur trop long ( 30 caractères ).',
             'view_page.unique' => 'Le nom de la page doit être unique.',
-            'icon_view.required' => 'Le champ iconlink est requis.',
-            'icon_view.max' => 'Le code de l\'icone ne doit pas dépasser 15 caractères.',
+            // 'icon_view.required' => 'Le champ iconlink est requis.',
+            // 'icon_view.max' => 'Le code de l\'icone ne doit pas dépasser 15 caractères.',
             
         ];
     }
