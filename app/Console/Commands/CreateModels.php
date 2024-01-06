@@ -42,7 +42,7 @@ class CreateModels extends Command
             }
         }
         $out->writeln("Génération des modelès terminé !");
-        shell_exec('php artisan migrate');
-        $out->writeln("Migration terminée !");
+        // shell_exec('php artisan migrate');
+        // $out->writeln("Migration terminée !");
     }
 }

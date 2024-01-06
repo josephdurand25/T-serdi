@@ -142,7 +142,7 @@
     <section class="relative pt-12 bg-blueGray-50">
       <div class="items-center flex flex-wrap">
         <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
-          <img alt="..." class="max-w-full rounded-lg shadow-lg" src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80">
+          <img alt="..." class="max-w-full rounded-lg shadow-lg" src="{{ asset('storage/utilities/03.png') }}">
         </div>
         <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
           <header class="text-center mx-auto mb-5 lg:px-20">

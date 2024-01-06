@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <footer class="w-full text-gray-700 bg-white/95 body-font">
+    <footer class="w-full text-gray-700 bg-green-100 body-font">
         <div
             class="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
             <div class=" flex-shrink-0 w-64 mx-auto md:mx-0 md:text-left lg:text-left">
@@ -104,45 +104,45 @@
                     <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">A propos de nous</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Notre sturcture</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900"><span class="text-3xl mx-3">›</span> Notre sturcture</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Notre équipe</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Notre équipe</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Nos produits</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Nos produits</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Nos metiers</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Nos metiers</a>
                         </li>
                     </nav>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    {{-- <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Support</h2>
+                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Support</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Contact Support</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Contact Support</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Help Resources</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Help Resources</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Release Updates</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Release Updates</a>
                         </li>
-                    </nav> --}}
+                    </nav>
                 </div>
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Platform
                     </h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Pricing</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Pricing</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">FAQ</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">FAQ</a>
                         </li>
                     </nav>
                 </div>
@@ -150,13 +150,13 @@
                     <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Contact</h2>
                     <nav class="mb-10 list-none">
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Ecrivez nous</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Ecrivez nous</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">Request a Quote</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Request a Quote</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-gray-500 cursor-pointer hover:text-gray-900">+237 676 86 29 19</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">+237 676 86 29 19</a>
                         </li>
                     </nav>
                 </div>

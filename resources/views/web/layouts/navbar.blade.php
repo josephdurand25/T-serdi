@@ -4,7 +4,7 @@
 		{{-- {{ dd($setting->logo) }} --}}
 		<div class="text-green-500 md:order-1  flex h-full justify-around items-center  ">
 			<!-- Heroicon - Chip Outline -->
-			<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 " fill="none" viewBox="0 0 15 24" stroke="currentColor">
+			<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-6 " fill="none" viewBox="0 0 15 24" stroke="currentColor">
                 {{-- <img src="{{ asset($setting->logo) }}" x="0" y="0" class="w-full  h-full rounded-full" alt="" /> --}}
                 <img src="{{ asset('storage/utilities/logo1.png') }}" x="0" y="0" class="w-full  h-full rounded-full" alt="" />
 			</svg>
