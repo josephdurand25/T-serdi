@@ -1,0 +1,1 @@
+<x-Admin.app-layout> test</x-Admin.app-layout>

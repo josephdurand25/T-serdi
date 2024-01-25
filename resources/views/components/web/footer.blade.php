@@ -2,7 +2,7 @@
 
 
 <!-- component -->
-<div class="flex flex-col items-end w-full min-h-screen ">
+<div class="flex flex-col items-end w-full  ">
     <div class="container flex flex-col mx-auto bg-transparent">
         <div class="w-full draggable">
             <div class="flex justify-center items-center py-2">
@@ -20,7 +20,7 @@
                         </span>
                         <p class="text-2xl font-extrabold text-dark-grey-900">Email</p>
                         <p class="text-base leading-7 text-dark-grey-600">Contactez-nous à l'adresse </p>
-                        <a class="text-lg font-bold text-purple-blue-500" href = "mailto: info-serdi@serdi-cm.com">info-serdi@serdi-cm.com</a>
+                        <a class="text-lg font-bold text-purple-blue-500" href = "mailto: info@serdi-cm.com">info@serdi-cm.com</a>
                     </div>
                     <div class="flex flex-col items-center gap-3 px-8 py-10 bg-white rounded-3xl shadow-main">
                         <span>
@@ -100,6 +100,21 @@
                 </div>
             </div>
             <div class="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+                {{-- <div class="w-full px-4 lg:w-1/4 md:w-1/2">
+                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Platform
+                    </h2>
+                    <nav class="mb-10 list-none">
+                        <li class="mt-3">
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Pricing</a>
+                        </li>
+                        <li class="mt-3">
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900">FAQ</a>
+                        </li>
+                    </nav>
+                </div> --}}
                 <div class="w-full px-4 lg:w-1/4 md:w-1/2">
                     <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">A propos de nous</h2>
                     <nav class="mb-10 list-none">
@@ -107,13 +122,13 @@
                             <a class="text-black/95 cursor-pointer hover:text-gray-900"><span class="text-3xl mx-3">›</span> Notre sturcture</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Notre équipe</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900"><span class="text-3xl mx-3">›</span> Notre équipe</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Nos produits</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900"><span class="text-3xl mx-3">›</span> Nos produits</a>
                         </li>
                         <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Nos metiers</a>
+                            <a class="text-black/95 cursor-pointer hover:text-gray-900"><span class="text-3xl mx-3">›</span> Nos metiers</a>
                         </li>
                     </nav>
                 </div>
@@ -128,21 +143,6 @@
                         </li>
                         <li class="mt-3">
                             <a class="text-black/95 cursor-pointer hover:text-gray-900">Release Updates</a>
-                        </li>
-                    </nav>
-                </div>
-                <div class="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 class="mb-3 text-sm font-bold tracking-widest text-gray-900 uppercase title-font">Platform
-                    </h2>
-                    <nav class="mb-10 list-none">
-                        <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Terms &amp; Privacy</a>
-                        </li>
-                        <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">Pricing</a>
-                        </li>
-                        <li class="mt-3">
-                            <a class="text-black/95 cursor-pointer hover:text-gray-900">FAQ</a>
                         </li>
                     </nav>
                 </div>
